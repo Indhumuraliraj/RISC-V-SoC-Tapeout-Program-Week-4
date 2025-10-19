@@ -1,10 +1,8 @@
-# RISC-V-SoC-Tapeout-Program-Week-4
-Sure, Indhu 🌸 Here’s the transient analysis explanation written in clean GitHub README.md format — ready to include in your own workshop notes or repository.
-
+# RISC-V-SoC-Tapeout-Program-Week4
 
 ---
 
-# 🌟 Day 3: Transient Analysis and Delay Measurement (CMOS Inverter)
+# 🌟 Day 4: Transient Analysis and Delay Measurement (CMOS Inverter)
 
 This section explains how to perform **transient analysis** using **Ngspice** on a CMOS inverter built with **Sky130 technology**, and how to calculate **rise and fall delays** from the waveform.
 
@@ -12,7 +10,7 @@ This section explains how to perform **transient analysis** using **Ngspice** on
 
 ## ⚙️ SPICE Netlist
 
-```spice
+```
 *Model Description
 .param temp=27
 
@@ -38,7 +36,7 @@ plot Vin V(out)
 .endc
 
 .end
-
+```
 
 ---
 
@@ -206,9 +204,3 @@ By analyzing rise and fall delays, designers can optimize inverter design for sp
 
 
 ---
-
----
-
-Would you like me to add a **timing diagram (Vin/Vout waveform)** to this README (with labeled `tPHL` and `tPLH` points)?  
-It’ll look great visually on GitHub and make your explanation more complete.
-
